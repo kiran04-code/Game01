@@ -1,7 +1,7 @@
 function bibblegenrator(){
     var clutter = "";
 for(var i=1;i<=135;i++){
-    const kk  = Math.ceil( Math.random()*10+1);
+    const kk  = Math.ceil( Math.random()*10);
     clutter +=`<div id="bubble">${kk}</div>` 
 }
  document.querySelector("#panelbottom").innerHTML = clutter
