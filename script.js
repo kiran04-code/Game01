@@ -23,7 +23,7 @@ function timer(){
 }
 var hitm;
 function hitran(){
-    hitm = Math.floor( Math.random()*10)
+    hitm = Math.ceil( Math.random()*10)
   document.querySelector("#hit").innerHTML = hitm
 }
 var score = 0;
