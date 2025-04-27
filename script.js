@@ -1,7 +1,7 @@
 function bibblegenrator(){
     var clutter = "";
 for(var i=1;i<=135;i++){
-    const kk  = Math.ceil( Math.random()*10);
+    const kk  = Math.floor( Math.random()*10);
     clutter +=`<div id="bubble">${kk}</div>` 
 }
  document.querySelector("#panelbottom").innerHTML = clutter
@@ -23,7 +23,7 @@ function timer(){
 }
 var hitm;
 function hitran(){
-    hitm = Math.ceil( Math.random()*10)
+    hitm = Math.floor( Math.random()*10)
   document.querySelector("#hit").innerHTML = hitm
 }
 var score = 0;
